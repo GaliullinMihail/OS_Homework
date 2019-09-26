@@ -10,5 +10,5 @@ void pressed_ctrl_c()
 void main()
 {
     signal(SIGINT, pressed_ctrl_c);
-    sleep(10);
+    sleep(100);
 }
