@@ -8,7 +8,7 @@ void main()
 {
     int fork_check = fork();
 
-    if (fork_check != 0)
+    if (fork_check != 0)	//if child process
     {
 	{
         sleep(10);
@@ -16,7 +16,7 @@ void main()
     	}
        
     }
-    else
+    else		// parent process
     while (1)
         {
             printf("I'm alive\n");
